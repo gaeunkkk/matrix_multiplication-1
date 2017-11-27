@@ -50,15 +50,16 @@ case(state)
 s0:
   begin
    module mul(input [] a, b, output [] o);
-assign o= a*b;
+    assign o= a*b;
    endmodule
  
-wire [] a00xb0;
-mul ma00xb0(.a(a00), .b(b0), .o(a00xb0));
+  wire [] a00xb0;
+  mul ma00xb0(.a(a00), .b(b0), .o(a00xb0));
  
-p = a00xb0;
-   next_state=s1;
+  p = a00xb0;
+  next_state=s1;
   end
+  
 s1:
   begin
    p=p+(a01*b1);
