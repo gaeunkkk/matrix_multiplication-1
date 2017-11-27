@@ -43,6 +43,10 @@ always@(state)
 begin
 case(state)
 
+
+  
+  
+  
 s0:
   begin
    module mul(input [] a, b, output [] o);
@@ -105,3 +109,4 @@ end
 
 endcase
 end
+endmodule
