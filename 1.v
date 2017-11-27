@@ -42,10 +42,7 @@ end
 always@(state)
 begin
 case(state)
-
-
-  
-  
+ 
   
 s0:
   begin
