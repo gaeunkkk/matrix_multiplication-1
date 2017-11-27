@@ -51,7 +51,7 @@ s0:
   begin
    module mul(input [] a, b, output [] o);
 assign o= a*b;
-endmodule
+   endmodule
  
 wire [] a00xb0;
 mul ma00xb0(.a(a00), .b(b0), .o(a00xb0));
